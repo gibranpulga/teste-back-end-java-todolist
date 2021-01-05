@@ -1,20 +1,22 @@
-Teste para Desenvolvedor Back-end Java - Todolist
+Test for Java Back-end Developer - Todolist
 
-Olá ! Bolamos esse teste pra entender melhor como você aborda o problema proposto, e como você gosta de codificar. Tentamos aproximar o máximo possível da nossa realidade, utilizando tecnologias que usamos e que facilmente podem ser encontrados tutoriais na internet.
-Caso não consiga ou queira fazer algum passo, não tem problema. Não vamos te desqualificar por isso. Nesse caso você pode comentar sobre o ponto e o porquê não o fez. Esperamos que goste!
+Hi ! 
+We designed this test to better understand how you approach problems solving, and how you like to code. We try to get as close as possible to our reality, using technologies that we use and that tutorials can easily be found on the internet.
+If you are unable or don't want to do one of the requirements, no problem. We will not disqualify you for that. In that case you can comment on it and tell why you skipped. 
+We hope you enjoy it!
 
-Seguem as tarefas. As tarefas consideradas bônus, caso não tenha tempo ou prefira não fazer, por favor comentar como faria ou como seria a arquitetura técnica:
+Below are the tasks. 
+Some of the tasks are considered as bonuses, if you do not have time or prefer not to do, you can comment on how you would do or how the technical architecture would be:
 
-- Criar uma API pra uma aplicação de todo list. Deve permitir essas funções: fazer login, logout, e as funções de uma simples todolist (adicionar/editar/deletar/listar task com nome, descrição, data). Utilizar Spring BOOT. 
-- Pode ser um login simples e hard coded.
-- Possibilidade de adicionar arquivo anexo. Caso faça o deploy no AWS, pode salvar no S3, por exemplo.
-- DB pode ser a vontade (sugestão h2, postgres ou mongo).
-- Adicionar swagger, devemos poder fazer todo o flow pelo swagger ( login, CRUD da task, logout). Dica: documentar todos os campos. 
-- Não esquecer dos unit tests. 
-- Criar dockerfile e docker-compose.yaml pra fazer o deploy local como container do docker.
-- Entregar o link do repositório em modo privado (preferência gitlab) com readme.MD com instruções de como rodar localmente e resumo técnico.
-- Escrever o Readme.md Instruções do flow de login.
+- Create an API for a whole list application. You must allow these functions: login, logout, and the functions of a simple todolist (add / edit / delete / list task with name, description, date). Use Spring BOOT;
+- It can be a simple and hard coded login;
+- DB is free to chose at will (suggestion h2, postgres or mongo);
+- Add swagger, we should be able to do all the flow through the swagger (login, task CRUD, logout). Tip: document all fields.
+- Do not forget the unit tests.
+- Deliver the repository link in private mode (gitlab preference) with readme.MD with instructions on how to run locally and technical summary.
 
-Bônus: permitir user se registrar;
-Bônus: Deploy em algum cloud provider (preferência AWS, pode ser no EC2 mesmo, ou Azure ou Heroku);
-Bônus: criar arquivo CI/CD do gitlab com 3 stages: compile, tests (caso tenha unit + integration, 1 stage pra cada) e dockerize (gerar container do docker). 
+- Bonus: possibility to add attached file. If you deploy to AWS, you can save to S3, for example.
+- Bonus: create dockerfile and docker-compose.yaml to deploy locally as a docker container.
+- Bonus: allow user to register;
+- Bonus: deploy in some cloud provider (preferably AWS, can be in EC2, or Azure or Heroku);
+- Bonus: create gitlab CI / CD file with 3 stages: compile, tests (if you have unit + integration, 1 stage for each) and dockerize (generate docker container).
